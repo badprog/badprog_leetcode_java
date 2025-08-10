@@ -1,0 +1,19 @@
+// badprog.com
+
+{
+  "name": "badprog_leetcode_java_dev_container",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "redhat.java",
+        "vscjava.vscode-gradle",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}
