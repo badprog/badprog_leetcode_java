@@ -1,0 +1,3 @@
+rootProject.name = 'java'
+
+include 'p_1_two_sum'
